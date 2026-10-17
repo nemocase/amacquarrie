@@ -14,20 +14,46 @@ body {
 .banner {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .textBlock {
     padding-left: 10px;
     padding-right: 10px;
+    width: 66%;
+}
+
+.change {
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer {
+    font-size: small;
+}
+
+#cBlue {
+    background-color: cornflowerblue;
+    color: black;
+}
+
+#cDark {
+    background-color: darkslateblue;
+    color: gainsboro;
+}
+
+#cPlain {
+    background-color: white;
 }
 
 #profo {
    width: 33%;
-   max-width: 400px;
-   min-width: 180px;
    margin: 10px;
    border: 10px;
+   max-width: 400px;
+   min-width: 200px;
+   object-fit: contain;
 }
 
 @media (max-width: 600px) {
